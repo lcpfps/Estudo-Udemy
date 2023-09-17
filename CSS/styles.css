@@ -424,3 +424,14 @@ border-radius: 15px;
 
     font-weight: 900;
 }
+
+/* Font size */
+
+.small{
+
+    font-size: 7px;
+}
+
+.big{
+    font-size: 78px;
+}
