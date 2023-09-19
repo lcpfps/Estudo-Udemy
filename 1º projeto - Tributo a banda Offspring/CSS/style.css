@@ -1,0 +1,90 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
+
+}
+
+.container{
+    max-width: 1100px;
+    background-color: #fff;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+/* HEADER */
+
+.header{
+    text-align: center;
+
+}
+
+.title{
+    font-size: 40px ;
+}
+
+.main-p{
+
+    font-style: italic;
+}
+
+/* IMAGEM DESTAQUE */
+.img-destaque{
+    text-align:center ;
+    margin-top: 30px;
+
+}
+
+/* Biografia */
+
+.biograph-container{
+    padding: 25px 0; /* Padding 25px 0 e margin 25px 0 é um padrao profissional para centralizar divs*/
+    margin: 25px 0;
+    border-top: 1px dashed #ddd; /* Dashed é uma linha tracejada*/
+    border-bottom: 1px dashed #ddd;
+}
+
+/* Quotes */
+
+.quotes-container{
+    background-color: #ddd;
+    padding: 30px;
+
+}
+
+.quotes-container blockquote/*Encadeando o seletor(usando mais de uma classe*/{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.quotes-container p{
+    font-style: italic;
+}
+
+/* Curiosidades */
+
+.curiosities-container{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+
+}
+
+.curiosities-container li{
+    height: 30px;
+
+
+}
+
+/* second image */
+
+.second-image{
+    font-weight: bold;
+    text-align: center;
+
+}
