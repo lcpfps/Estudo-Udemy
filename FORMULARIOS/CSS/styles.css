@@ -14,5 +14,12 @@ div label {
 div input{
     background-color: antiquewhite
 
-};
+}
 
+/* Input radio botttom */
+
+.radio label,
+.radio input,
+.radio span {
+    display: inline-block;
+}
