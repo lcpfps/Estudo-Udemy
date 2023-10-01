@@ -34,10 +34,18 @@ input{
 input[type="text"],
 input[type="number"],
 input[type="date"],
-input[type="file"]/* Seleciona apenas o elemento que desejamos modificar caso haja 
+input[type="file"],
+textarea
+/* Seleciona apenas o elemento que desejamos modificar caso haja 
 mais de um elemento igualfunciona como uma class*/{
     
     width: 400px;
+}
+
+/* textarea */
+
+textarea{
+    padding: 10px 5px;
 }
 
 /* PAGE HEADER */
@@ -62,3 +70,4 @@ mais de um elemento igualfunciona como uma class*/{
     position: relative;
     top: -62px;
 }
+

@@ -32,6 +32,121 @@
                     required>
     
                 </div>
+                <div class="box-input">
+                    <label for="price">Preço<span class="required-field">*</span> </label>
+                    <input 
+                    type="number"
+                    name="price" 
+                    id="price" 
+                    class="block" 
+                    placeholder="Defina o Preço"
+                    required>
+    
+                </div>
+
+                <div class="box-input">
+                    <label for="description">Descrição<span class="required-field">*</span> </label>
+                    <textarea name="description" id="description" class="block" placeholder="Aqui você coloca os detalhes do veículo, por exemplo: Se ele possui algum arranhão."></textarea>
+                
+    
+                </div>
+
+                <div class="box-input">
+                    <label for="brading">Marca<span class="required-field">*</span> </label>
+                    <input 
+                    type="text"
+                    name="brading" 
+                    id="brading"
+                    class="block" 
+                    placeholder="Digite a marca do veículo"
+                    required>
+    
+                </div>
+
+                <div class="box-input">
+                    <label for="model">Modelo<span class="required-field">*</span> </label>
+                    <input 
+                    type="text"
+                    name="model" 
+                    id="model"
+                    class="block" 
+                    placeholder="Digite o modelo do veículo"
+                    required>
+    
+                </div>
+
+                <div class="box-input">
+                    <label for="mileage">Kilometragem<span class="required-field">*</span> </label>
+                    <input 
+                    type="number"
+                    name="mileage" 
+                    id="mileage"
+                    class="block" 
+                    placeholder="Digite a Kilometragem"
+                    required>
+    
+                </div>
+
+                
+                <div class="box-input">
+                    <label for="purchase_date">Data de compra<span class="required-field">*</span> </label>
+                    <input 
+                    type="date"
+                    name="purchase_Data de compra"  
+                    id="purchase_date"
+                    Data de compras="block" 
+                    required>
+    
+                </div>
+
+                <div class="box-input">
+                    <p>Tipo de Cambio <span class="required-field">*</span></p>
+                    <input 
+                    type="radio"
+                    name="gear" 
+                    id="manuak"
+                    class="block">
+                    <label for="manual">Manual</label>
+                    <input 
+                    type="radio"
+                    name="gear" 
+                    id="Automátic"
+                    class="block">
+                    <label for="Automátic">Automático</label>
+                </div>
+                <div class="Optional-box">
+                    <p>Opcionais</p>
+                    <ul class="optiopnals-list"></ul>
+                    <li>
+                        <input type="checkbox" 
+                        id="airbag" 
+                        name="optiopnals[]" 
+                        value="Airbag">
+                        <label for="airbag">Airbag</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" 
+                        id="alarm" 
+                        name="optiopnals[]" 
+                        value="alarm">
+                        <label for="alarm">Alarme</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" 
+                        id="AC" 
+                        name="optiopnals[]" 
+                        value="AC">
+                        <label for="AC">Ar Condicionado</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" 
+                        id="reverse-camera" 
+                        name="optiopnals[]" 
+                        value="reverse-camera">
+                        <label for="reverse-camera">Câmera de ré</label>
+                    </li>
+                </div>
+
                 <input type="submit" Value="Enviar">
             </form>
             </div>
