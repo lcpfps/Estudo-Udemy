@@ -11,11 +11,11 @@
         <div class="header">
             <h3>Cadastre Seu veículo para vender mais rapido!</h3>
         </div>
-        <div class="form-container">
+        <div class="form-container">    
             <div class="form-header">
                 <p>Formulário</p>
             </div>
-            <div class="fomr-body">
+            <div class="form-body">
             <h1 class="form-title">Venda fácil seu carro!</h1>
             <p>Descreva as características e marque os opcionais que ele possuí</p>
             <form>
@@ -114,42 +114,84 @@
                     class="block">
                     <label for="Automátic">Automático</label>
                 </div>
-                <div class="Optional-box">
-                    <p>Opcionais</p>
-                    <ul class="optiopnals-list"></ul>
-                    <li>
-                        <input type="checkbox" 
-                        id="airbag" 
-                        name="optiopnals[]" 
-                        value="Airbag">
-                        <label for="airbag">Airbag</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" 
-                        id="alarm" 
-                        name="optiopnals[]" 
-                        value="alarm">
-                        <label for="alarm">Alarme</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" 
-                        id="AC" 
-                        name="optiopnals[]" 
-                        value="AC">
-                        <label for="AC">Ar Condicionado</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" 
-                        id="reverse-camera" 
-                        name="optiopnals[]" 
-                        value="reverse-camera">
-                        <label for="reverse-camera">Câmera de ré</label>
-                    </li>
+                <div class="optional-box">
+                        <p>Opcionais:</p>
+                        <ul class="optionals-list">
+                        <li>
+                            <input type="checkbox" 
+                            id="airbag" 
+                            name="optionals" 
+                            value="Airbag">
+                            <label for="airbag">Airbag</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" 
+                            id="alarm" 
+                            name="optionals[]" 
+                            value="alarm">
+                            <label for="alarm">Alarme</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" 
+                            id="AC" 
+                            name="optionals[]" 
+                            value="AC">
+                            <label for="AC">Ar Condicionado</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" 
+                            id="reverse-camera" 
+                            name="optionals" 
+                            value="reverse-camera">
+                            <label for="reverse-camera">Câmera de ré</label>
+                        </li>
+                    </ul>
                 </div>
-
-                <input type="submit" Value="Enviar">
-            </form>
+                <div class="optional-box"><!--2º Optional-box-->
+                    
+                    <ul class="optionals-list">
+                    <li>
+                        <input type="checkbox" 
+                        id="lane-assist" 
+                        name="optionals" 
+                        value="lane-assist">
+                        <label for="lane-assist">Assistênte de pista</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" 
+                        id="key-less" 
+                        name="optionals" 
+                        value="key-less">
+                        <label for="key-less">Partida Keyless</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" 
+                        id="smartphone" 
+                        name="optionals" 
+                        value="smartphone">
+                        <label for="smartphone">Integração com celulares</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" 
+                        id="leather-seat" 
+                        name="optionals" 
+                        value="leather-seat">
+                        <label for="leather-seat">Banco de couro</label>
+                    </li>
+                </ul>
             </div>
+            <div class="box-input">
+                <p>Fotos do carro <span class="required-field">*</span></p>
+                <input type="file"
+                multiple 
+                accept="image/jpg, image/png"
+                id="image" 
+                name="image" 
+                required>
+            </div>
+                <input type="submit" Value="Enviar" class="btn-submit">
+            </form>
+            </div>    
         </div>
     </div>
 </body>
