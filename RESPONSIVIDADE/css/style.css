@@ -1,0 +1,27 @@
+/* Media query */
+
+h1{
+    color: red;
+}
+
+@media screen and (max-width: 500px){
+    h1{
+        color: blue;
+    }
+    
+}
+
+/* Min witdh */
+p{
+    background-color: aqua;
+    color: burlywood;
+    font-size: larger;
+}
+
+@media screen and (min-width: 800px){
+    p{
+        background-color: black;
+        color: tomato;
+        font-size: small;
+    }
+}
